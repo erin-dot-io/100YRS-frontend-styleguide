@@ -1,0 +1,20 @@
+@import 'globals/variables';
+
+body {
+  background-color: $red;
+  color: #fff;
+}
+
+.logo {
+  display: block;
+  width: 505px;
+  height: 200px;
+  text-indent: -999em;
+  background: url(/images/100yrs-logo-wide.svg);
+  background-size: 505px 200px;
+  position: absolute;
+  margin-top: -100px;
+  margin-left: -252px;
+  left: 50%;
+  top: 50%;
+}
